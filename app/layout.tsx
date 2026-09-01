@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Muhammad Irtaza Shahab — Full Stack Developer",
-  description:
-    "Frontend-focused full stack developer in Lahore, Pakistan. React, Next.js, TypeScript, Node.js — building with AI-assisted workflows.",
+  title: "Irtaza Shahab | Full Stack Developer",
+  description: 
+      "Frontend-focused full stack developer in Lahore, Pakistan. React, Next.js",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
