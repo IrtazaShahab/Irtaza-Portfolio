@@ -1,7 +1,8 @@
 "use client";
 
 import { LINKS } from "@/lib/links";
-import { SiGithub, SiLinkedin, SiDiscord, SiUpwork } from "react-icons/si";
+import { SiGithub, SiDiscord, SiUpwork } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 type Platform = "github" | "linkedin" | "discord" | "upwork" | "email";
@@ -15,7 +16,7 @@ type SocialItem = {
 
 export const SOCIALS: SocialItem[] = [
   { key: "github", label: "GitHub", href: LINKS.github, Icon: SiGithub },
-  { key: "linkedin", label: "LinkedIn", href: LINKS.linkedin, Icon: SiLinkedin },
+  { key: "linkedin", label: "LinkedIn", href: LINKS.linkedin, Icon: FaLinkedin },
   { key: "discord", label: "Discord", href: LINKS.discord, Icon: SiDiscord },
   { key: "upwork", label: "Upwork", href: LINKS.upwork, Icon: SiUpwork },
   { key: "email", label: "Email", href: LINKS.email, Icon: HiOutlineMail },
