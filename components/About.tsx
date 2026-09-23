@@ -35,14 +35,15 @@ export default function About() {
           viewport={viewportOnce}
           className="leading-relaxed text-dim"
         >
-          I&apos;m a frontend-focused full stack developer based in Lahore,
-          Pakistan, with around two years of professional experience at software
-          agencies (Pixelative, Hashed System). My core stack is React.js,
-          Next.js, TypeScript, and Tailwind CSS, with full-stack exposure across
-          Node.js, Express.js, and PostgreSQL. I use AI coding tools — Claude
-          Code, Cursor, and Codex — as a regular part of my workflow, and I&apos;m
-          currently expanding into Python and full-stack roles. Alongside work,
-          I&apos;m a Computer Science student at the Virtual University of Pakistan.
+          I&apos;m a Full Stack Developer based in Lahore, Pakistan, with around
+          two years of professional experience at software agencies
+          (Pixelative, Hashed System). Frontend is my strongest area —
+          React.js, Next.js, TypeScript, and Tailwind CSS — and I work across
+          the stack with Node.js, Express.js, and PostgreSQL. I use AI coding
+          tools — Claude Code, Cursor, and Codex — as a regular part of my
+          workflow, and I&apos;m currently deepening my backend work with
+          Python. Alongside work, I&apos;m a Computer Science student at the
+          Virtual University of Pakistan.
         </motion.p>
     
         {/* Quick Facts card on the right for larger screens */}

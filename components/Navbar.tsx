@@ -132,7 +132,10 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-4 md:flex">
-          <SocialLinks size={18} />
+          {/* icons need more room than the md nav has — bring them in at lg */}
+          <div className="hidden lg:block">
+            <SocialLinks size={18} />
+          </div>
           <a href="#contact" className="rounded-md border border-line-strong px-4 py-1.5 font-mono text-xs text-ink transition hover:border-accent hover:shadow-glow">
             Get in touch
           </a>

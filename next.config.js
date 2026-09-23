@@ -1,18 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn-chatly-docs.vyro.ai",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.omniultra.imagine.art",
-      },
-    ],
+    // All portfolio imagery is served from /public — no remote hosts needed,
+    // so images render locally and in production without a CDN dependency.
+    formats: ["image/avif", "image/webp"],
   },
 };
 
 module.exports = nextConfig;
-

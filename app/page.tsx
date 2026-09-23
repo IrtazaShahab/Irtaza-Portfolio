@@ -9,6 +9,7 @@ import Services from "@/components/Services";
 import Faq from "@/components/Faq";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import CursorEffects from "@/components/CursorEffects";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <CursorEffects />
     </>
   );
 }
